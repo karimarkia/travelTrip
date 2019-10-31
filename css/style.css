@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    color: #ffca7c;
+    background-color: #383a3e;
+    padding: 10px;
+    height: 40px;
+    min-width: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    color: #ffffff;
+    box-shadow: 0 0 15px black;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    background: linear-gradient(to right, rgb(207, 207, 207), #ff7f00);
+    font-size: 1.4rem;
+}
+
+body header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.search-input {
+    padding: 3px 3px 4px 3px;
+    height: 40px;
+}
+
+.search-btn {
+    padding: 2px 5px 0px 5px;
+    float: right;
+    line-height: 24px;
+    border-radius: 3px;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.weather h4 {
+    font-size: 1.5em;
+}
+
+.weather mark {
+    background-color: unset;
+    font-weight: bold;
+}
+
+.weather div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.btn-marker {
+    margin: 10px 0;
+}
+
+.copy-loc-container {
+    display: flex;
+    float: right;
+    margin: 10px 0;
+}
+
+.copy-loc-input {
+    padding: 3px 3px 4px 3px;
+    width: 420px;
+}
+
+.copy-loc-btn {
+    padding: 2px 5px 3px 5px;
+}
