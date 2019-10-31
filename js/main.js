@@ -131,10 +131,10 @@ function copyLoc() {
     var elInput = document.querySelector('.copy-loc-input');
     console.log(elInput);
     
-    // elInput.select();
-    // document.execCommand('copy');
+    elInput.select();
+    document.execCommand('copy');
 }
 
 function setLocUrl(lat, lng) {
-    document.querySelector('.copy-loc-input').value = `https://karimarkia.github.io/TravelTip/index.html?lat=${lat}&lng=${lng}`;
+    document.querySelector('.copy-loc-input').value = `https://karimarkia.github.io/travelTrip/index.html?lat=${lat}&lng=${lng}`;
 }
